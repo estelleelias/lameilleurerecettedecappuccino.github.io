@@ -1,0 +1,43 @@
+h1 {
+	color: brown;
+	font-size: 40px;
+	background: white; 
+	text-align: center;
+	font-family: arapey;
+}				
+
+h2{
+	color:brown; 
+	font-size: 20px;
+	background: white;
+    text-align: center;
+	font-family: arapey;
+}
+
+h3,ul {
+	text-align: left;
+	font-family: arapey;
+}
+
+h4{
+    color: brown;
+    font-size: 20px;
+    font-family: arapey;
+}
+
+h5{
+	color: black;
+	background: white;
+	font-size: 20px;
+	font-family: arapey;
+}
+
+body{
+	background: white;
+	font-family: arial;
+}
+
+.tarte{
+	text-align: center;
+}
+
