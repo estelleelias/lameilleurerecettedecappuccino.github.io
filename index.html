@@ -3,9 +3,14 @@
  <head>
  	<meta charset="utf-8">
 	<title> The recette du cappuccino </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
  </head>
  <body>
+
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Arapey:ital@1&display=swap" rel="stylesheet">
+
 
   <div class="navbar">
    <img src="images/logo.png" class="logo">
@@ -21,14 +26,16 @@
   <br>
 
    
-  <div class="café">
-   <img src="https://i.pinimg.com/originals/0d/e7/0f/0de70fc76b9732ee3cb8bc17652f661f.jpg" alt="mojito" width="300">
+  <div class="café w-100 d-flex justify-content-center">
+   <img src="https://i.pinimg.com/originals/0d/e7/0f/0de70fc76b9732ee3cb8bc17652f661f.jpg" alt="cappuccino" width="300">
   </div>
 
    <br>
 
   <h4> <p>Le <b> cappuccino </b>, c'est un peu le café italinen par excellence mais il faut donc de l'excellence dans sa conception<i> que nous vous partageons aujourd'hui </i>... </p>
-
+<div class="video">
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/iIgjqacYlvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
    <h3>Les ingrédients indispensables: </h3>
 
    <ul>
@@ -38,13 +45,86 @@
     <li> 1 magnifique tasse pour servir le cappuccino</li>
    </ul>
     
+
 <br>
   <div class="prod">
-   <h5> Quelques exemples de résultats! </h3>
-   <img src="exemple 1.jpg">
-   <img src="exemple 2.jpg">
-   <img src="exemple 3.jpg">
+   <h5> Quelques exemples de résultats! </h5>
+   <img src="images/exemple1.jpg" class="production">
+   <img src="images/exemple2.jpg"class="production">
+   <img src="images/exemple3.jpg"class="production">
   </div>
 
+<br>
+<br>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary my-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Nos autres recettes!
+</button>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+<div>
+  <h6> Notre maison : </h6>
+</div>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12344878.428305836!2d3.7241571053141707!3d40.94015826668297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d4fe82448dd203%3A0xe22cf55c24635e6f!2sItalie!5e0!3m2!1sfr!2sfr!4v1623328425163!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
+<!-- Begin Mailchimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="https://a-waree.us15.list-manage.com/subscribe/post?u=9ef09dfae3eb2da317e4e3b49&amp;id=acb7df8fb7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <h2 class="color-green">Souscrire à notre newsletter</h2>
+          <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+          <div class="mc-field-group">
+            <label for="mce-EMAIL">Email<span class="asterisk">*</span></label>
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-FNAME">Nom de famille</label>
+            <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-LNAME">Prénom</label>
+            <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+          </div>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9ef09dfae3eb2da317e4e3b49_acb7df8fb7" tabindex="-1" value=""></div>
+            <div class="clear">
+              <input type="submit" value="Souscrire" name="subscribe" id="mc-embedded-subscribe" class="btn-pink">
+            </div>
+          </div>
+        </form>
+      </div>
+      <!--End mc_embed_signup-->
  </body>
 </html>
